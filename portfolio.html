@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Work | Synergy</title>
+  <meta name="description" content="Browse a live Synergy project and concept designs for professional service, retail and product, construction and hospitality businesses.">
+  <meta name="theme-color" content="#0B1630">
+
+  <!-- Social sharing. Add og:url and og:image (absolute URLs) once the domain is live. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Synergy">
+  <meta property="og:title" content="Our Work | Synergy">
+  <meta property="og:description" content="A live project and concept designs showing the kind of website Synergy can build for your industry.">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"></noscript>
+  <link rel="stylesheet" href="other.css">
+</head>
+
+<!-- [html-validate-disable no-redundant-role -- role="list" is kept on purpose: Safari and VoiceOver drop list semantics when CSS removes bullets] -->
+<body id="top">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo" aria-label="Synergy home">
+        <span class="logo-mark" aria-hidden="true">S</span>
+        <span>Synergy<span class="logo-dot" aria-hidden="true">.</span></span>
+      </a>
+
+      <button type="button" class="menu-toggle" id="menuToggle"
+        aria-label="Menu"
+        aria-expanded="false"
+        aria-controls="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="industries.html">Who We Serve</a>
+        <a href="portfolio.html" aria-current="page">Our Work</a>
+        <a href="process.html">Our Process</a>
+        <a href="contact.html" class="nav-cta">Let's Talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Page hero -->
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><span aria-current="page">Our Work</span></li>
+          </ol>
+        </nav>
+
+        <span class="eyebrow">OUR WORK</span>
+        <h1 id="page-title">Projects and concepts that show<br><span>what we can build.</span></h1>
+        <p class="page-hero-lead">
+          Browse a live project and concept designs for the businesses we serve. Each concept is labelled as one, and shows the kind of website we can build for your industry.
+        </p>
+
+        <div class="page-actions">
+          <a href="#contact" class="btn btn-primary whatsapp-link">Discuss Your Project <span aria-hidden="true">↗</span></a>
+          <a href="services.html" class="btn btn-secondary">See Our Services</a>
+        </div>
+
+        <ul class="jump-links" role="list" aria-label="On this page">
+          <li><a href="#portfolio">Our work</a></li>
+          <li><a href="#contact">Get in touch</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="section portfolio-section" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">SELECTED WORK</span>
+            <h2 id="portfolio-title">Selected projects<br><span>and concepts.</span></h2>
+          </div>
+          <p>
+            Filter by industry to see how the design changes with the business.
+          </p>
+        </div>
+
+        <p class="portfolio-note">
+          Projects marked <strong>Concept Project</strong> are designs we created to show
+          what we can build for each type of business.
+        </p>
+
+        <div class="portfolio-filters" data-filter-group data-filter-noun="projects" role="group" aria-label="Filter concept projects">
+          <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">All Concepts</button>
+          <button type="button" class="filter-btn" data-filter="professional" aria-pressed="false">Professional</button>
+          <button type="button" class="filter-btn" data-filter="retail" aria-pressed="false">Retail &amp; Products</button>
+          <button type="button" class="filter-btn" data-filter="construction" aria-pressed="false">Construction</button>
+          <button type="button" class="filter-btn" data-filter="hospitality" aria-pressed="false">Hospitality</button>
+        </div>
+        <p class="sr-only" id="filterStatus" role="status" aria-live="polite"></p>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card" data-category="professional">
+            <div class="portfolio-image concept-professional">
+            <a href="https://www.gisgrandmaster.com" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">
+              <img src="gispage.avif" alt="Screenshot of the GIS Grandmaster website homepage" width="809" height="491" loading="lazy" decoding="async">
+            </a>
+              <span class="concept-badge">LIVE PROJECT</span>
+            </div>
+            <div class="portfolio-info">
+              <div>
+                <span class="portfolio-category">PROFESSIONAL SERVICES</span>
+                <h3><a href="https://www.gisgrandmaster.com" target="_blank" rel="noopener noreferrer">Project Website<span class="sr-only"> (opens in a new tab)</span></a></h3>
+              </div>
+              <span class="portfolio-arrow" aria-hidden="true">↗</span>
+            </div>
+            <p>A structured, project-focused website for a geospatial and data-driven solutions company.</p>
+          </article>
+
+          <!-- To link a concept project, change its title to:
+               <h3><a href="URL" target="_blank" rel="noopener noreferrer">Title<span class="sr-only"> (opens in a new tab)</span></a></h3>
+               The whole card then becomes clickable. -->
+          <article class="portfolio-card" data-category="retail">
+            <div class="portfolio-image concept-retail">
+              <div class="store-preview" aria-hidden="true">
+                <span class="store-label">THE PRODUCT EDIT</span>
+                <div class="store-products">
+                  <span class="store-product store-product-one"></span>
+                  <span class="store-product store-product-two"></span>
+                  <span class="store-product store-product-three"></span>
+                </div>
+                <div class="store-lines"><span></span><span></span></div>
+              </div>
+              <span class="concept-badge">CONCEPT PROJECT</span>
+            </div>
+            <div class="portfolio-info">
+              <div>
+                <span class="portfolio-category">RETAIL &amp; PRODUCTS</span>
+                <h3>Product Storefront</h3>
+              </div>
+              <span class="portfolio-arrow" aria-hidden="true">↗</span>
+            </div>
+            <p>A product-led layout for showcasing items and encouraging orders.</p>
+          </article>
+
+          <article class="portfolio-card" data-category="construction">
+            <div class="portfolio-image concept-construction">
+              <div class="engineering-preview" aria-hidden="true">
+                <div class="engineering-header"></div>
+                <div class="engineering-content">
+                  <div class="engineering-copy"><span></span><span></span><span></span></div>
+                  <div class="engineering-building">
+                    <span></span><span></span><span></span><span></span>
+                  </div>
+                </div>
+                <div class="engineering-footer"></div>
+              </div>
+              <span class="concept-badge">CONCEPT PROJECT</span>
+            </div>
+            <div class="portfolio-info">
+              <div>
+                <span class="portfolio-category">CONSTRUCTION &amp; TECHNICAL</span>
+                <h3>Engineering Company Website</h3>
+              </div>
+              <span class="portfolio-arrow" aria-hidden="true">↗</span>
+            </div>
+            <p>A professional project portfolio designed to communicate capability.</p>
+          </article>
+
+          <article class="portfolio-card" data-category="hospitality">
+            <div class="portfolio-image concept-hospitality">
+              <div class="hotel-preview" aria-hidden="true">
+                <span class="hotel-kicker">A PLACE TO UNWIND</span>
+                <div class="hotel-scene">
+                  <div class="hotel-sun"></div>
+                  <div class="hotel-building"><span></span><span></span><span></span></div>
+                </div>
+                <div class="hotel-button">EXPLORE YOUR STAY</div>
+              </div>
+              <span class="concept-badge">CONCEPT PROJECT</span>
+            </div>
+            <div class="portfolio-info">
+              <div>
+                <span class="portfolio-category">HOSPITALITY &amp; LOCAL SERVICES</span>
+                <h3>Hotel &amp; Guest Experience</h3>
+              </div>
+              <span class="portfolio-arrow" aria-hidden="true">↗</span>
+            </div>
+            <p>A welcoming digital experience that supports enquiries and bookings.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <div class="contact-copy">
+          <span class="eyebrow eyebrow-light">YOUR PROJECT COULD BE NEXT</span>
+          <h2 id="contact-title">Want a website<br>like <span>these?</span></h2>
+          <p>
+            Tell us about your business and what you want your website to do, and we will discuss the best way to build it.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a href="https://wa.me/2347065104381" class="btn btn-white whatsapp-link">
+            Chat With Us on WhatsApp <span aria-hidden="true">↗</span>
+          </a>
+          <a href="mailto:synergyspitzeinternational@gmail.com" class="contact-email email-link">
+            Or send us an email
+          </a>
+          <span class="contact-note">Tell us about your business and what you want to achieve.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-top">
+      <a href="index.html" class="logo footer-logo">
+        <span class="logo-mark" aria-hidden="true">S</span>
+        <span>Synergy<span class="logo-dot2" aria-hidden="true">.</span></span>
+      </a>
+
+      <p>Professional websites for businesses ready to move forward.</p>
+
+      <nav class="footer-links" aria-label="Footer">
+        <a href="services.html">Services</a>
+        <a href="industries.html">Who We Serve</a>
+        <a href="portfolio.html" aria-current="page">Our Work</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© <span id="currentYear">2026</span> Synergy. All rights reserved.</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="other.js" defer></script>
+</body>
+</html>
